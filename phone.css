@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    header .link {
+        margin-right: 5px;
+    }
+        
+    table, tr, td{
+        width: 450px;
+    }
+
+    #display{
+        width: 58.6%;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    header .link {
+        display: none;
+    }
+        
+    table, tr, td{
+        width: 250px;
+    }
+
+    #display{
+        width: 43.4%;
+    }
+    
+}
+@media (max-width: 360px) {
+    header .link {
+        display: none;
+        
+    }
+        
+    table, tr, td{
+        width: 250px;
+    }
+
+    #display{
+        width: 69.5%;
+    }
+    
+}
